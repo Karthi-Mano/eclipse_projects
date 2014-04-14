@@ -7,5 +7,6 @@
 	<classpathentry kind="lib" path="S:/Zakir/jre7/lib/selenium-server-standalone.jar"/>
 	<classpathentry kind="lib" path="S:/Zakir/jre7/lib/json-simple-1.1.1.jar"/>
 	<classpathentry kind="lib" path="S:/Zakir/jre7/lib/testng.jar"/>
+	<classpathentry kind="lib" path="S:/Zakir/jre7/lib/sqljdbc4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
