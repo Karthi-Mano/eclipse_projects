@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.126+/Users/admin/Box Documents/Zack Data/GitHub/EclipseProject/.metadata/.plugins/org.eclipse.jdt.core
 1485746415.index
 1457794228.index
@@ -28,3 +29,26 @@ INDEX VERSION 1.126+/Users/admin/Box Documents/Zack Data/GitHub/EclipseProject/.
 1833648217.index
 3712507179.index
 1384487945.index
+=======
+INDEX VERSION 1.126+C:\Zakir\GitHub\EclipseProject\.metadata\.plugins\org.eclipse.jdt.core
+4108727661.index
+30765161.index
+559670790.index
+163172794.index
+659387205.index
+305854171.index
+3974580528.index
+3065916431.index
+4041092966.index
+1115467115.index
+3075504305.index
+4155206848.index
+1198397869.index
+1697886153.index
+3133528496.index
+2888803602.index
+4145791615.index
+1995173708.index
+1299022128.index
+1498219845.index
+>>>>>>> FETCH_HEAD
