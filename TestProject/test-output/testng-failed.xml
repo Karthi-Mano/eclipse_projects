@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.zakir.java.Class1">
+      <class name="TestNG.main">
         <methods>
-          <include name="fClass3"/>
-          <include name="fClass2"/>
-          <include name="beforeTest"/>
+          <include name="runIE"/>
         </methods>
-      </class> <!-- com.zakir.java.Class1 -->
+      </class> <!-- TestNG.main -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
