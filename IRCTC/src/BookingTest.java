@@ -2,6 +2,7 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -17,10 +18,10 @@ public class BookingTest {
 	
 	public static void main(String args[]) {
 		BookingTest test1 = new BookingTest();
-		test1.open_gmailaccount();
-		//test1.open_IRCTC();
-		//test1.planMyTravel();
-		//test1.selectTrain();
+		//test1.open_gmailaccount();
+		test1.open_IRCTC();
+		test1.planMyTravel();
+		test1.selectTrain();
 		
 	}
 	
@@ -64,8 +65,8 @@ public class BookingTest {
 	}
 	
 	public void planMyTravel() {
-		DRIVER.findElement(By.id("stationFrom")).sendKeys("CSTM");
-		DRIVER.findElement(By.id("stationTo")).sendKeys("Pune");
+		DRIVER.findElement(By.id("stationFrom")).sendKeys("CSTM" + Keys.RETURN);
+		DRIVER.findElement(By.id("stationTo")).sendKeys("Pune" + Keys.RETURN);
 		selectCalendarDate();
 		//DRIVER.findElement(By.id("JDatee")).sendKeys("28/3/2014");
 		Select quota = new Select(DRIVER.findElement(By.name("quota")));
