@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="TestProject Suite" verbose="-361" >
+
+<parameter name="baseURL" value="http://pasqa/"/>
+<parameter name="Browser" value="CR"/>
+
+  <test name="PAS for PUP Iteration 01"   >
+    <classes>
+       <class name="com.zakir.TestNG.main" />
+
+   </classes>
+
+
+ </test>
+</suite>

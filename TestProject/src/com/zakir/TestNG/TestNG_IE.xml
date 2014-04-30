@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="HomeOwner Suite" verbose="-361" >
+
+<parameter name="baseURL" value="http://pasqa/"/>
+<parameter name="Browser" value="CR"/>
+<parameter name="EffDate" value="-363"/>
+
+
+<parameter name="isAgencySelection" 	  value="true"/>
+<parameter name="isCustInfo"  		  value="true"/>
+<parameter name="isInsProd"  		  value="true"/>
+<parameter name="isGAQ"  		  value="true"/>
+<parameter name="isCNIauto"  		  value="true"/>
+<parameter name="isHHM"  		  value="true"/>
+<parameter name="isProp"  	  	  value="true"/>
+<parameter name="isNonCNI"  	  	  value="true"/>
+<parameter name="isWatercraft"  	  value="true"/>
+<parameter name="isRecVeh"  		  value="true"/>
+<parameter name="isCovPrem"  		  value="true"/>
+<parameter name="isNameInsured"   	  value="true"/>
+<parameter name="isPaymentMethod" 	  value="true"/>
+<parameter name=""  		 	  value="false"/>
+
+  <test name="PAS for PUP Iteration 01"   >
+    <classes>
+       <class name="kwi.zakir.PUP.Main_SmokeTest" />
+
+   </classes>
+
+
+ </test>
+</suite>
